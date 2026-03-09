@@ -1,14 +1,16 @@
 def fun(liste=[]):
-    resultaat =0
-    for i in liste:
-     resultat = resultat + i
+    resultat = 0
+    for i in range(0,len(liste)):
+     resultat = resultat +liste[i]
 
-    if resultaat <= 1:
-        return str(resultat)+"ohm"
+    if resultat <= 1:
+        return str(resultat)+" ohm"
     else:
-        return str( resultat)+"ohms"
+        return str( resultat)+" ohms"
 
 
 
 liste = [1, 5, 6, 3]
 print(fun(liste))
+print(fun([16, 3.5, 6]))
+print(fun([0.5, 0.5]))
