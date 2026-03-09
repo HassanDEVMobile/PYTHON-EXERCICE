@@ -10,7 +10,7 @@ def fun(liste=[]):
 
 
 
-liste = [1, 5, 6, 3]
-print(fun(liste))
+
+print(fun( [1, 5, 6, 3]))
 print(fun([16, 3.5, 6]))
 print(fun([0.5, 0.5]))
