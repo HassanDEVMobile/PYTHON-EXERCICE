@@ -1,4 +1,4 @@
-def fun(a :int,b : int) -> int:
+def fun(a ,b ) :
     value_min =int((21*a*30)*b/60)
     value_sec = ((21*a*30)*b)%60
     return str(value_min)+" minute" +" and "+str(value_sec)+" seconds"
